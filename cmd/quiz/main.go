@@ -1,6 +1,6 @@
 package main
 
-import "github.com/nandobas/gohr/pattern"
+import "github.com/nandobas/gohr/formulas"
 
 func main() {
 	//lib.LoadFromFile("files/config.json")
@@ -57,5 +57,6 @@ func main() {
 	//quiz.Search()
 	//entities.PrintGenerics()
 	//iosystem.Serv()
-	pattern.TestCarDrive()
+	//pattern.TestCarDrive()
+	formulas.StackExecute()
 }
