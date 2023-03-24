@@ -1,6 +1,8 @@
 package main
 
-import "github.com/nandobas/gohr/formulas"
+import (
+	"github.com/nandobas/gohr/lib"
+)
 
 func main() {
 	//lib.LoadFromFile("files/config.json")
@@ -58,5 +60,6 @@ func main() {
 	//entities.PrintGenerics()
 	//iosystem.Serv()
 	//pattern.TestCarDrive()
-	formulas.StackExecute()
+	//formulas.StackExecute()
+	lib.ExecLinkedListTest()
 }
