@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/nandobas/gohr/lib"
-)
+import "github.com/nandobas/gohr/lib"
 
 func main() {
 	//lib.LoadFromFile("files/config.json")
