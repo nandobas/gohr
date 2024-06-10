@@ -1,7 +1,5 @@
 package main
 
-import "github.com/nandobas/gohr/lib"
-
 func main() {
 	//lib.LoadFromFile("files/config.json")
 
@@ -59,5 +57,6 @@ func main() {
 	//iosystem.Serv()
 	//pattern.TestCarDrive()
 	//formulas.StackExecute()
-	lib.ExecLinkedListTest()
+	//lib.ExecLinkedListTest()
+	//pattern.ExecVisitor()
 }
